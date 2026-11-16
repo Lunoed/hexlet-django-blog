@@ -37,9 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "hexlet_django_blog",
+    "hexlet_django_blog.article",
 ]
 
-INSTALLED_APPS.append("hexlet_django_blog")
+#INSTALLED_APPS.append("hexlet_django_blog")
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
