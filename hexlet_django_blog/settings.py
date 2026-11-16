@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+INSTALLED_APPS.append("hexlet_django_blog")
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -65,6 +67,8 @@ TEMPLATES = [
         },
     },
 ]
+
+TEMPLATES[0]["DIRS"] = [BASE_DIR / "templates"]
 
 WSGI_APPLICATION = 'hexlet_django_blog.wsgi.application'
 
