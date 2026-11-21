@@ -1,6 +1,3 @@
-def main():
-    print("Hello from hexlet-django-blog!")
+lock = range(1, 5)
 
-
-if __name__ == "__main__":
-    main()
+print(type(lock))
